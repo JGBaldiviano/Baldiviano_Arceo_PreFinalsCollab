@@ -81,6 +81,13 @@ body {
   max-width: 45%;
   float:right;
   position: relative;
+  max-width: 50%;
+}
+
+.article-container h1{
+  text-align: center;
+  text-decoration:black;
+  text-shadow: 4px 4px 4px rgb(170, 170, 170);
 }
 
 .footer-container {
@@ -89,6 +96,7 @@ body {
    background-color: #060038bb;
    width: 100%;
   position:relative;
+   position: relative;
 }
 
 .footer-container img {
