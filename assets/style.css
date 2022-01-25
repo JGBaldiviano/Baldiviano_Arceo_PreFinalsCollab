@@ -1,3 +1,188 @@
+
+html, body {
+  margin:0;
+  padding:0;
+  height:100%;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+/* FOR THE WHOLE CONTAINER OF THE WEBSITE */
+#container {
+  min-height:100%;
+  position:relative;
+}
+
+/* FOR THE CONTAINER OF HEADER */
+#header {
+   background-color: #0b0450bb;
+   background-image: linear-gradient(#060038bb, #060038bb);
+   padding-left: 50px;
+   width: 100%;
+   height: 100%;
+   position: relative;
+}
+
+/* FOR THE CONTAINER OF VIDEO */
+#video {
+  position: absolute;
+  top: 120px;
+  width: 100%;
+  height: 100%;
+}
+
+/* FOR THE CONTAINER OF ARTICLE 1 (news and announcements)*/
+#newsannoucements {
+  padding-top: 300px;
+  padding-bottom: 20px;
+}
+
+/* FOR THE CONTAINER OF ARTICLE 2 (dominican links and international linkages)*/
+#dominicanlinks {
+ padding-top: 30px;
+ position: relative;
+}
+
+/* FOR THE CONTAINER OF FOOTER*/
+#footer {
+ position:relative;
+ bottom:0px;
+ width:100%;
+ height: 100px;   /* Height of the footer */
+ background-image: linear-gradient(#060038bb, #060038bb);
+ background-color: #060038bb;
+}
+
+
+/* HEADER CSS CODES */
+.header-container {
+ padding-top: 5px;
+ padding-right: 5px;
+ padding-bottom: 5px;
+ padding-left: 5px;
+}
+
+.header-container p {
+ font-size: 20px; 
+ color: white;
+ margin-top: 8px;
+ padding-left: 15px;
+ display:inline-block;
+ margin-left: 20px;
+}
+
+
+.headlinks {
+   padding-right: 200px;
+   padding-top: 15px;
+   float: right;
+ }
+ 
+ .headlinks p {
+   color: white;
+   margin: 0;
+   padding: 0;
+   padding-top: 5px;
+   padding-right: 50px;
+ }
+ 
+ .headlinks p:hover{
+   color: #ff0000;
+ }
+
+ /* VIDEO CODES */
+.name{
+  position: relative;
+  text-align: center;
+   background-size: cover;
+   background-repeat: no-repeat;
+   color: #ffffff;
+   text-align: center;
+   padding-top: 250px;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   text-shadow: 4px 4px 4px #aaa;
+   margin-bottom: 50px;
+ }
+ 
+ .name button{
+   padding-top: 50px;
+   padding-bottom: 50px;
+   padding: 10px;
+   border: none;
+   outline: none;
+   background: none;
+   border: 1px solid #ff0000;
+   color: #ffffff;
+ }
+ 
+ .name button:hover{
+   background: #ff0000;
+ }
+
+ /* NEWSAND ANNOUNCEMENTS CODES (CONTENTS) */
+
+ .nan-contents {
+  background-color: rgb(156, 5, 5);  
+ }
+
+ .QR{
+   padding-left: 300px;
+   padding-bottom: 30px;
+}
+ .ESC{
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 30px;
+ }
+
+
+ /* DOMINICAN LINKS CODES (CONTENTS) */
+.dl-contents {
+  background-color: rgb(156, 5, 5);  
+  display: flex;
+  gap: 100px;
+  flex-direction: row;
+  /* flex-direction: column; */
+}
+
+.link {
+  font-size: 14px;
+  margin-bottom: 10px;
+  text-align: center;
+  flex: 5;
+}
+
+.link-1 {
+  margin-top: 20px;
+  color: #ffffff;
+}
+
+.link-2 {
+  margin-top: 20px;
+  color: #ffffff;
+} 
+
+ /* FOOTER CODES */
+.footer-container {
+   position: absolute;
+   padding-top: 5px;
+   padding-right: 5px;
+   padding-bottom: 5px;
+   padding-left: 5px;
+ }
+ 
+ .footer-container img {
+   float: left;
+   padding-top: 15px;
+   padding-right: 10px;
+   padding-bottom: 10px;
+   padding-left: 15px;
+ }
+ 
+ .footer-container p {
+   color: #ffffff;
+   font-size: 12px;
+   display: inline-block;
+ } 
+ 
 *{
    padding: 0;
    margin: 0;
