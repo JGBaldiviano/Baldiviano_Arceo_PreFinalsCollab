@@ -1,4 +1,6 @@
+/* GLOBAL CSS DECLARATION FOR THE WHOLE WEBSITE */
 html, body {
+  box-sizing: border-box;
   margin:0;
   padding:0;
   height:100%;
@@ -10,38 +12,48 @@ html, body {
   position:relative;
 }
 
-/* FOR THE CONTAINER OF HEADER */
+/* POSITION FOR THE WHOLE CONTAINER OF HEADER */
 #header {
    background-color: #0b0450bb;
    background-image: linear-gradient(#060038bb, #060038bb);
-   padding-left: 50px;
    width: 100%;
    height: 100%;
    position: relative;
 }
 
-/* FOR THE CONTAINER OF VIDEO */
+/* POSITION FOR THE WHOLE CONTAINER OF VIDEO */
 #video {
   position: absolute;
-  top: 120px;
+  top: 125px;
+  bottom: 500px;
   width: 100%;
   height: 100%;
 }
 
-/* FOR THE CONTAINER OF ARTICLE 1 (news and announcements)*/
+#main{
+  background-color:white;
+}
+/* POSITION FOR THE wHOLE CONTAINER OF ARTICLE 1 (Letran)*/
+#letran{
+  position: relative;
+}
+
+/* POSITION FOR THE WHOLE CONTAINER OF ARTICLE 2 (news and announcements)*/
 #newsannoucements {
-  padding-top: 300px;
-  padding-bottom: 20px;
+  top: -1280px;
+  padding-left: 1060px;
+  position: relative;
 }
 
-/* FOR THE CONTAINER OF ARTICLE 2 (dominican links and international linkages)*/
+/* POSITION FOR THE WHOLE CONTAINER OF ARTICLE 3 (dominican links and international linkages)*/
 #dominicanlinks {
- padding-top: 30px;
- position: relative;
+ padding-top: 110px;
+ width: 69.8%;
 }
 
-/* FOR THE CONTAINER OF FOOTER*/
+/* POSITION FOR THE WHOLE CONTAINER OF FOOTER*/
 #footer {
+  top: -1280px;
  position:relative;
  bottom:0px;
  width:100%;
@@ -56,7 +68,7 @@ html, body {
  padding-top: 5px;
  padding-right: 5px;
  padding-bottom: 5px;
- padding-left: 5px;
+ padding-left: 80px;
 }
 
 .header-container p {
@@ -68,9 +80,8 @@ html, body {
  margin-left: 20px;
 }
 
-
 .headlinks {
-   padding-right: 200px;
+   padding-right: 20px;
    padding-top: 15px;
    float: right;
  }
@@ -80,14 +91,14 @@ html, body {
    margin: 0;
    padding: 0;
    padding-top: 5px;
-   padding-right: 50px;
+   padding-right: 70px;
  }
  
  .headlinks p:hover{
    color: #ff0000;
  }
 
- /* VIDEO CODES */
+ /* VIDEO CSS CODES */
 .name{
   position: relative;
   text-align: center;
@@ -112,28 +123,76 @@ html, body {
    color: #ffffff;
  }
  
+ .name p{
+   color: white;
+ }
  .name button:hover{
    background: #ff0000;
  }
 
- /* NEWSAND ANNOUNCEMENTS CODES (CONTENTS) */
+ /* LETRAN CSS CODES(CONTENTS) */
+ .letran-contents{
+   position: relative;
+   top: 120px;
+ }
 
+ .letran-contents img{
+        /* TOP:RIGHT:BOTTOM:LEFT */
+   padding: 50px 50px 50px 45px;
+ }
+
+ /* NEWSAND ANNOUNCEMENTS CSS CODES (CONTENTS) */
  .nan-contents {
+  padding-top: 0px;
   background-color: rgb(156, 5, 5);  
  }
 
- .QR{
-   padding-left: 300px;
-   padding-bottom: 30px;
-}
- .ESC{
-  padding-left: 30px;
-  padding-right: 30px;
-  padding-bottom: 30px;
+ .nan-contents h1{
+   color: white;
+  padding-left: 65px;
+  font-size: 20px;
+  padding-top: 20px;
+  padding-bottom: 10px;
  }
 
+ .QR{
+   padding-top: 50px;
+   padding-left: 50px;
+}
+ .ESC{
+  padding-left: 50px;
+ }
 
- /* DOMINICAN LINKS CODES (CONTENTS) */
+ .nan-contents a{
+   top: 0px;
+   text-decoration: none;
+ }
+
+ .nan-contents p:hover{
+  color:limegreen;
+}
+
+.nan-contents p {
+  color: white;
+  margin: 0;
+  padding: 0;
+  padding-left: 50px;
+  padding-bottom: 46px;
+}
+
+.fb h2{
+  color: white;
+  padding-left: 80px;
+  margin: 0;
+}
+
+.fb{
+  padding-left: 63px;
+  padding-bottom: 30px;
+}
+
+
+ /* DOMINICAN LINKS CSS CODES (CONTENTS) */
 .dl-contents {
   background-color: rgb(156, 5, 5);  
   display: flex;
@@ -144,22 +203,22 @@ html, body {
 
 .link {
   font-size: 14px;
-  margin-bottom: 10px;
+  margin-bottom: 11px;
   text-align: center;
   flex: 5;
 }
 
 .link-1 {
-  margin-top: 20px;
+  margin-top: 22px;
   color: #ffffff;
 }
 
 .link-2 {
-  margin-top: 20px;
+  margin-top: 22px;
   color: #ffffff;
 } 
 
- /* FOOTER CODES */
+ /* FOOTER CSS CODES */
 .footer-container {
    position: absolute;
    padding-top: 5px;
@@ -181,4 +240,3 @@ html, body {
    font-size: 12px;
    display: inline-block;
  } 
- 
